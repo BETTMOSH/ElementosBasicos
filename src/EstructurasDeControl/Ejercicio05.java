@@ -24,47 +24,63 @@ public class Ejercicio05 {
         System.out.println("Numero: ");
         int n3 = sc.nextInt();
         if (n3>max){
-            min=3;
+            max=n3;
+        }if (n3 < max){
+            min=n3;
         }
         System.out.println("Numero: ");
         int n4 = sc.nextInt();
         if (n4>max){
-            min=n4;
+            max=n4;
+        }if (n4 < max){
+            min = n4;
         }
         System.out.println("Numero: ");
         int n5 = sc.nextInt();
         if (n5>max){
-            min=5;
+            max=n5;
+        }if (n5 < max){
+            min = n5;
         }
         System.out.println("Numero: ");
         int n6 = sc.nextInt();
         if (n6>max){
-            min=6;
+            max=n6;
+        }if (n6<max){
+            min=n6;
         }
         System.out.println("Numero: ");
         int n7 = sc.nextInt();
         if (n7>max){
-            min=7;
+            max=n7;
+        }if (n7<max){
+            min=n7;
         }
         System.out.println("Numero: ");
         int n8 = sc.nextInt();
         if (n8>max){
-            min=8;
+            max=n8;
+        }if (n8 < max){
+            min=n8;
         }
         System.out.println("Numero: ");
         int n9 = sc.nextInt();
         if (n9>max){
-            min=9;
+            max=n9;
+        }if (n9 < max){
+            min = n9;
         }
         System.out.println("Numero: ");
         int n10 = sc.nextInt();
         if (n10>max){
-            min=10;
+            max=n10;
+        }if (n10 < max){
+            min=n10;
         }
 
 
         System.out.println("El numero mayor introducido es: " + max);
-        System.out.println("El numero mayor introducido es: " + min);
+        System.out.println("El numero menor introducido es: " + min);
 
     }
 }

@@ -10,8 +10,8 @@ public class Ejercicio08 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Eres culpable? (S/N) ");
         String culpable = sc.nextLine();
-        if (culpable.equals("S")){  // la comparacion entre String se hace por el metodo equals.Es decir si la variable es culpable es igual a S
-            System.out.println("A la carcel! ");
+        if (culpable.equals("S")){  // la comparación entre String se hace por el método equals.Es decir si la variable es culpable es igual a S
+            System.out.println("A la cárcel! ");
         }else if (culpable.equals("N")){
             System.out.println("A casa! ");
         }else {

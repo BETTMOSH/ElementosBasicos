@@ -35,6 +35,7 @@ public class EjemplosTipoBoolean {
         boolean seco = false;
         boolean verano = false;
         boolean trekking = seco && (!frio || verano);
+        System.out.println(trekking);
 
 
 

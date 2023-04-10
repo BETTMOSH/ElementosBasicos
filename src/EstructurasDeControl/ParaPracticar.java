@@ -1,7 +1,8 @@
 package EstructurasDeControl;
 
-public class ForEjercicio38 {
+public class ParaPracticar {
     public static void main(String[] args) {
-
+        //
     }
+
 }

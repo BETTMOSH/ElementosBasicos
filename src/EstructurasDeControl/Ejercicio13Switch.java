@@ -23,21 +23,34 @@ public class Ejercicio13Switch {
         int tamaño = sc.nextInt();
         System.out.print("Klos a vender: ");
         int kilos= sc.nextInt();
-        switch (tipo){
+        switch (tipo) {
             case 'A':
-        }
-            switch (tamaño){
-                case 1:
-                    precio=precioIni+0.2;
+                switch (tamaño) {
+                    case 1:
+                        precio = precioIni + 0.2;
+                        break;
+                    case 2:
+                        precio = precioIni + 0.3;
+                        break;
+                    default:
+                        System.out.println("datos incorrectos");
+                }
                 break;
-                case 2:
-                    precio=precioIni+0.3;
-                    break;
-                default:
-            System.out.println("datos incorrectos");
-
-    }
-
+            case 'B':
+                switch (tamaño) {
+                    case 1:
+                        precio = precioIni - 0.3;
+                        break;
+                    case 2:
+                        precio = precioIni - 0.5;
+                        break;
+                    default:
+                        System.out.println("datos incorrectos");
+                }
+                break;
+            default:
+                System.out.println("datos incorrectos");
+        }
         double precioTotal= precio*kilos;
         System.out.println("A pagar: " + precioTotal + "€");
 
