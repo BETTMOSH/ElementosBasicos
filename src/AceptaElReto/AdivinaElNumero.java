@@ -19,6 +19,7 @@ public class AdivinaElNumero {
                 System.out.println("Mas alto");
             }else {
                 break;
+            }
         }
         System.out.println("Correcto adivinaste en " + intentos + " intentos");
     }
